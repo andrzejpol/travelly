@@ -158,5 +158,20 @@ animation: cloudAnimation 9s infinite alternate ease-in-out;
   #logo {
     padding: 2rem;
   }
+  .cloud {
+    height: 40rem;
+    pointer-events: none;
+  }
+  .moving-cloud-1{
+    z-index: -1;
+  }
+  .moving-cloud-2 {
+    z-index: -2;
+  }
+  .locations-head h3 {
+    text-align: center;
+    background: rgba(19,28,39,0.8);
+    color: white;
+  }
 }
 
