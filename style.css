@@ -56,6 +56,7 @@ nav {
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -88,5 +89,17 @@ letter-spacing: 0.15rem;
 
 .hero h3 {
   padding: 5rem;
+}
+
+@media screen and (max-width: 932px) {
+  html {
+    font: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
 }
 
